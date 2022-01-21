@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.topbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-bottom: -300px;
+    height: 100px;
+}
+
+.leftside {
+    position: relative;
+    display: flex;
+    padding: 20px;
+    left: 10px;
+    top: 10px;
+
+}
+
+.leftside p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.2em;
+    
+}
+
+.rightside {
+    position: relative;
+    display: flex;
+    padding: 20px;
+    justify-content: flex-end;
+}
+
+.rightside img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+}
+
+.rightside p {
+    position: absolute;
+    font-size: 1.2em;
+    right: 70px;
+    top: 33px;
+
+}
+
+
+.search {
+    display: block;
+    flex-basis: 100%;
+    padding: 10px 20px;
+}
+
+.navebar {
+
+    border-top: solid black 1px;
+    // border-bottom: solid black 1px;
+    padding: 2%;
+
+}

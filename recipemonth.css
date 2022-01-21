@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.topbar {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+  padding-bottom: -300px;
+  height: 100px;
+}
+
+.leftside {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  left: 10px;
+  top: 10px;
+}
+
+.leftside p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.2em;
+}
+
+.rightside {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.rightside img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+}
+
+.rightside p {
+  position: absolute;
+  font-size: 1.2em;
+  right: 70px;
+  top: 33px;
+}
+
+.search {
+  display: block;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  padding: 10px 20px;
+}
+
+.navebar {
+  border-top: solid black 1px;
+  padding: 2%;
+}
+/*# sourceMappingURL=recipemonth.css.map */
