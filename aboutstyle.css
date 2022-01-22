@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(205, 56, 56);
+
+}
+
+.about {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.about-text {
+    color: white;
+    width: 80%;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.about-text p {
+    margin: 15px;
+}
+
+.about-pics {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
